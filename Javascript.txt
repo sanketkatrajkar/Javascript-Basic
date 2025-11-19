@@ -1,0 +1,106 @@
+
+⭐ JavaScript Notes
+
+1️⃣ Variable
+A variable is a container used to store data.
+
+| Keyword   | Use            | Notes                                 |
+| --------- | -------------- | ------------------------------------- |
+| **var**   | Old way        | Function-scoped, can be redeclared    |
+| **let**   | Modern way     | Block-scoped, cannot be redeclared    |
+| **const** | Constant value | Block-scoped, value cannot be changed |
+
+Examples:
+let age = 20;
+const PI = 3.14;
+var name = "Sanket";
+
+2️⃣ Data Types in JavaScript
+
+JavaScript has 7 primitive data types + Object.
+
+Primitive Data Types:
+Number → 10, 3.14
+String → "Hello", 'JS'
+Boolean → true, false
+Null → empty value
+Undefined → value not assigned
+BigInt → large integers (9007199254740991n)
+Symbol → unique identifiers
+
+Non-Primitive:
+
+Object, Arrays, Functions
+
+4️⃣ NaN (Not-a-Number)
+NaN is a special value that means → Not a valid number.
+
+When NaN occurs?
+"abc" / 2    // NaN (string cannot be divided)
+Number("hello") // NaN
+
+Properties:
+
+Type of NaN is number
+NaN == NaN → false
+Check NaN using isNaN() or Number.isNaN().
+
+5️⃣ Operator Precedence
+
+Operator precedence means → which operator executes first.
+
+Higher precedence executes first.
+Common precedence order (high → low):
+() Parentheses
+Unary operators → ++ -- ! typeof
+Multiplication / Division / Modulus
+Addition / Subtraction
+Comparison operators
+Logical AND (&&)
+Logical OR (||)
+
+Assignment operators (= += -=)
+
+Example:
+let result = 5 + 3 * 2;  // 3*2 = 6 → 5+6 = 11
+
+6️⃣ Unary Operator
+Unary operators work on one single operand.
+
+Examples:
+let x = 5;
+console.log(++x);   // Pre-increment (6)
+console.log(x--);   // Post-decrement (prints 6, becomes 5)
+
+Types:
+
+Increment → ++x, x++
+Decrement → --x, x--
+Unary plus → +x
+Unary minus → -x
+typeof → check type
+
+delete → delete object property
+
+7️⃣ Null & Undefined
+Undefined
+Value is not assigned.
+
+let a;
+console.log(a);  // undefined
+
+Null
+A deliberate empty value.
+
+let b = null;
+console.log(b);  // null
+
+| undefined                      | null                        |
+| ------------------------------ | --------------------------- |
+| Variable declared but no value | Programmer sets it manually |
+| System/default empty           | Intentional empty           |
+| Type → "undefined"             | Type → "object" (JS bug)    |
+
+7️⃣ console.log() :  To write (log) a message on the console
+
+
