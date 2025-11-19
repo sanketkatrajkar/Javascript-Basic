@@ -103,4 +103,3 @@ console.log(b);  // null
 
 7️⃣ console.log() :  To write (log) a message on the console
 
-
