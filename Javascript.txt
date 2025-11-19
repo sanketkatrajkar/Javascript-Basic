@@ -103,3 +103,47 @@ console.log(b);  // null
 
 7️⃣ console.log() :  To write (log) a message on the console
 
+7️⃣ Template Literals : They are used to add embedded expressions in a string
+    eg. console.log( ` Your pay $(a + b) rupees ` );
+
+7️⃣ Comparison of non - Number values is valid in js 
+    'a' < 'A' == TURE 
+
+7️⃣ Alert and prompt
+
+Alert Display an alert message on the page  alert("something is wrong);
+Prompt Display a dialog box that asks user for some input
+eg prompt("Please enter your roll no");
+
+7️⃣ String are Immutable in js 
+   No change can be made to string 
+   Whenever we do try to make a change a new string created and old one reamins same
+
+7️⃣ String Methos 
+
+ str.trim() - Remove the whitespaces form the both ends of string & reduce a new string 
+ let msg = "  Hello  ";
+ output = Hello;
+
+7️⃣ String Methos 
+ 
+ str.toUpperCase() : all letter of string is IN UPPER CASE 
+ str.toLowerCase() : all letter of string is IN LOWER CASE
+
+7️⃣ slice method : Returns a part of the orignal string as new string 
+ eg. let str = "llovecoding";
+ str.slice(5)   // coding
+ str.slice(1,4) // love
+ 
+7️⃣ Replace : Searches a value in the string & return a new string with the value replaced 
+7️⃣ Repeat : Return a string with the number of copies of a string 
+7️⃣ String Methods with arguments 
+ Arguments is some value that we pass to the method
+ indexOff method : Returns the first index of occurrence of some value in string or gives -1 if no found
+
+7️⃣ method chaing 
+Using one method after another Order of execution letf to right 
+str.toUpperCase().trim()
+
+ 
+
