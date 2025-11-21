@@ -18,3 +18,11 @@ const student = {
 
 
 console.log(student.getAvg());
+
+const student1 = {
+
+    name: "Sanket",
+    age : 23,
+    makrs : 97,
+    props : this, //Globle scope
+};

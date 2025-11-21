@@ -264,6 +264,15 @@ output: // variable defined kraychya agodar use krne in this case
                         Take one or multiple functioin as arguments 
                         return a Function
 
+7️⃣ this with Arrow Function 
+
+function : scope -> this -> calling object
+arrow function : Lexical scope panrent ne dilela object call scope
+
+
+7️⃣ setTimeOut Function (function , timeout) 
+7️⃣ setInterval Function (function , timeout)
+    clearInterval(id) : to stop the setInterval function
 
 7️⃣ Methods : Actions that can be perfromed on an Object.
 
@@ -283,3 +292,9 @@ const student = {
         console.log(avg);
     }
 }
+
+7️⃣ Try and Catch : 
+
+- Try statment allows you to define a block of code to be tested for errors while it is being executed 
+- the Catch statment allows you to define a block of code to be exicuted if an error occurs in the try block 
+
