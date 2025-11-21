@@ -52,9 +52,8 @@ const arr = [1,2,3];
 console.log(arr.push(4));
 console.log(arr);
 
-arr = [4,5,6]; // TypeError: Assignment to constant variable.
-
-console.log(arr); // Do not add new array in const array 
+// arr = [4,5,6]; // TypeError: Assignment to constant variable.
+// console.log(arr); // Do not add new array in const array 
 
 
 

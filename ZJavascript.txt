@@ -181,5 +181,105 @@ Constant Array = [1,3,4,6,6];
 const array madhe madhe aapn change kru shakto pan tya array chya Variable 
 References kivha tyacha adderss sathi change store kru shakto
  
+7️⃣ Object Literals : used to store keyed Colletction & complex entities 
+ property => (key , value) pair 
+ Object are a Colletction of properties 
+ let student = {
+    name : "Sanket",
+    age : 22,
+    marks : 88
+};
 
- 
+Get value 
+student["name"]
+student.name
+
+js automatically convert object keys to string 
+Even if we made the number as a key the number will convert into string
+
+const obj = {
+    1: "a",
+    2: "b",
+    true: "c",
+    null: "d",
+    undefined: "e"
+};
+
+JS convert 1,2,true, null this key into string then it use it is.
+
+add Update value 
+obj.null = "z" // change the value of null d to z 
+
+7️⃣ Array of Object 
+
+7️⃣  Math Object 
+
+properties
+Math.PI;
+Math.E;
+
+Math Methods
+
+Math.abs(12);   //112
+Math.abs(-12);  // 12
+Math.pow(2,3)   // 8
+Math.floor(5.5) // 5 rountoff number >= nearest smallest integers values 
+Math.floor(5.9999999999)  //
+Math.floor(-5.5) // -6
+Math.ceil(5.5) // 6 roundoff number <= lasgest number
+Math.ceil(5.000001) // 6
+Math.random() // Konta pn number deil vegvegali 
+
+7️⃣ Scope 
+
+Scope determines the accessibility of variable, object and function from different parts  of the code 
+function scope : Variable defined inside a function are not accessible (visible)from outside the function
+Block Scope : variable declared inside a {} Block cannot be accessed fromt outside the Block
+Globle Scope : variable declared in the file there accessed any inside the function , inside the block scope any where there are globle scope
+Lexical Scope : a variable defined outside a function can be accessed inside another function defined
+                after the variable declaratioin 
+the opposite is NOT true
+
+function outerFunc()
+{
+    function innerFunc()
+    {
+        console.log(x);
+        console.log(y);
+    }
+
+    let x = 4;
+    let y = 5;
+
+    innerFunc();
+}
+
+output: // variable defined kraychya agodar use krne in this case
+4
+5
+// Hoisting : this concept of  kwon as Hoisting 
+
+7️⃣ Function expressions
+7️⃣ High Order function  A function that does one or both 
+                        Take one or multiple functioin as arguments 
+                        return a Function
+
+
+7️⃣ Methods : Actions that can be perfromed on an Object.
+
+7️⃣ this Keyword : "This Keyword refers to an object that is executing the currenet piece of code"
+const student = {
+
+    name: "Sanket",
+    age : 23,
+    eng : 45,
+    math: 88,
+    phy : 77,
+
+    getAvg()
+    {
+        console.log(this);
+        let avg = (this.eng + this.math + this.phy) / 3;
+        console.log(avg);
+    }
+}
