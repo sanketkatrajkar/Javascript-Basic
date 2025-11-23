@@ -212,6 +212,11 @@ obj.null = "z" // change the value of null d to z
 
 7️⃣ Array of Object 
 
+7️⃣ Array method 
+
+forEach(some function defination or name )
+
+
 7️⃣  Math Object 
 
 properties
@@ -297,4 +302,63 @@ const student = {
 
 - Try statment allows you to define a block of code to be tested for errors while it is being executed 
 - the Catch statment allows you to define a block of code to be exicuted if an error occurs in the try block 
+
+7️⃣ Spread : Expand an iterable into multiple values
+
+console.log(..."apnacollege");
+
+a p n a c o l l e g e
+
+7️⃣ Rest : Allows a function to take an indefinite number of arguments and bundle then in an array 
+
+7️⃣ Destructuring : stroring values of array into multiple variable
+
+7️⃣ DOM (Document Object model )
+
+the Dom represents a Document wtih a Logical tree 
+it allows us to manipulate change webpage content (HTML elments)
+
+            <body>
+              <div>
+                 <h1>Todo</h1>
+              <div>
+              <ul>
+                <li>Eat</li>
+                <li>code</li>
+                <li>sleep</li>
+              </ul>
+            </body>
+
+                     Document <-- node
+                        |
+                        |
+                       Body <-- node
+                        |
+                        |
+             -------------------------
+             |                       |
+            Div <-- node             ul <-- node
+            |                        |
+            h1                  -------------
+                                |     |     |
+                               li    li    li              
+
+
+
+Selecting Elements 
+getElementById : returns the elments as an object or null (if not found )
+getElementByClassName : Return the Elements as an HTML Colletction or empty colletction(if not found )
+getElementByTagName : Return the Elements as an HTML Colletction or empty colletction(if not found )
+
+# Query Selectors : allows to use any CSS selector
+
+# Manuplating Attributes 
+
+obj.getAttrubute(attr)
+obj.setAttribute(attr, val)
+
+Removeing Elements
+
+removeChild(element)
+remove(element)
 
