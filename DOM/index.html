@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Batch Manager</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Batch Manager</h1>
+
+    <section class="form-card">
+      <h2>Create New Batch</h2>
+      <form id="batchForm">
+        <label for="name">Batch Name</label>
+        <input id="name" name="name" type="text" placeholder="e.g. Java FullStack" required />
+
+        <label for="fees">Fees (₹)</label>
+        <input id="fees" name="fees" type="number" placeholder="e.g. 25000" required />
+
+        <button type="submit" id ="button">Click Me </button>
+
+      </form>
+
+      <div id="message" class="message" aria-live="polite"></div>
+    </section>
+
+    <section class="list-card">
+      <h2>All Batches</h2>
+      <button id="refreshBtn">Refresh List</button>
+      <ul id="batchesList"></ul>
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

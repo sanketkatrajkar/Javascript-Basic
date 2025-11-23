@@ -354,7 +354,7 @@ getElementByTagName : Return the Elements as an HTML Colletction or empty collet
 
 # Manuplating Attributes 
 
-obj.getAttrubute(attr)
+obj .getAttrubute(attr)
 obj.setAttribute(attr, val)
 
 Removeing Elements
@@ -362,3 +362,17 @@ Removeing Elements
 removeChild(element)
 remove(element)
 
+7️⃣ DOM EVENT : Events are singnals that something has occurred (user inputs / actionss)
+
+1] onClick events : onClick (when an elmenets is clicked )
+2] onMouseEnter : when mouse enter an element
+
+
+# Event Listener (addEventListener) : 
+element.addEventListener(event , callback)
+
+btn.addEventListener("click", function () {
+    console.log("button clicked");
+});
+
+# this in event Listerner : when 'this' is used in a callback of event handler of something it refers to that something.
