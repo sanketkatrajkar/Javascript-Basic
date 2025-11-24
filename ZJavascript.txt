@@ -533,3 +533,23 @@ savetoDb("apna college")
         console.log("failure: weak connection, data not saved");
     });
 
+
+7️⃣  async keyword 
+
+creates an async function
+
+ async function greet() {
+    return "Hello";  // return a promises 
+}
+
+7️⃣ await keyword : pauses the execution of its surrounding async function until the promise is settled (resolved or rejected)
+
+aapn asycn function aatch await function la use krta yete.
+
+
+API  : application programming Interface
+
+# JSON : JavaScript Object Notation www.json.org 
+
+# Axios : Library to make HTTP requests 
+
